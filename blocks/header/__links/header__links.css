@@ -1,0 +1,14 @@
+.header__links{
+  margin: 14px 0 0;
+  padding: 0;
+  display: grid;
+  column-gap: 18px;
+  grid-template-columns: repeat(2, auto);
+  list-style: none;
+}
+
+@media screen and (min-width: 768px){
+  .header__links{
+    margin-top: 18px;
+  }
+}

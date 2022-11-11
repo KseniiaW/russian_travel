@@ -1,0 +1,28 @@
+.places {
+  margin: 64px 16px;
+  padding: 0;
+  display: grid;
+  grid-template-rows: auto;
+  gap: 49px;
+}
+
+@media screen and (min-width: 768px) {
+  .places {
+    margin: 88px 24px;
+    gap: 73px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places {
+    margin: 92px 48px;
+    gap: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .places {
+    margin-left: calc(148 / 1280 * 100%);
+    margin-right: calc(148 / 1280 * 100%);
+  }
+}
