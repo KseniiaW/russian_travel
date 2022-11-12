@@ -1,4 +1,4 @@
-.header{
+.header {
   margin: 16px;
   padding: 0;
   display: flex;
@@ -6,22 +6,15 @@
   align-items: flex-start;
 }
 
-@media screen and (min-width: 768px){
-  .header{
+@media screen and (min-width: 768px) {
+  .header {
     margin: 28px 24px;
   }
 }
 
-@media screen  and (min-width: 1024px){
-  .header{
+@media screen and (min-width: 1024px) {
+  .header {
     margin-left: 48px;
     margin-right: 48px;
-  }
-}
-
-@media screen and (min-width: 1280px){
-  .header{
-    margin-right: calc(48 / 1280 * 100%);
-    margin-left: calc(48 / 1280 * 100%);
   }
 }

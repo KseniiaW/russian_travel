@@ -1,0 +1,53 @@
+.cover__wrapper {
+    align-items: center;
+    background-image: url("../../../images/cover__background.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 200px;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.cover__wrapper::before {
+    background-color: #2A2C2F;
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.4s;
+    z-index: -1;
+}
+
+.cover__wrapper:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+    .cover__wrapper {
+        min-height: 480px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__wrapper {
+        min-height: 640px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__wrapper {
+        min-height: 740px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
